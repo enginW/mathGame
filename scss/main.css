@@ -17,6 +17,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: monospace;
 }
 
 .game {
@@ -32,7 +33,6 @@ body {
   width: 50%;
   position: relative;
   left: 25%;
-  font-family: monospace;
   font-size: 40px;
   border-left: 10px solid white;
   border-right: 10px solid white;
@@ -79,11 +79,13 @@ body {
 
 .game #answer {
   position: relative;
-  top: -4px;
-  padding: 10px;
+  top: -2px;
+  padding: 6px;
+  font-family: monospace;
+  font-size: 20px;
 }
 
-.game #true {
+.game #truee {
   width: 50px;
   height: 50px;
   background-color: green;
@@ -93,7 +95,7 @@ body {
   margin-top: 40px;
 }
 
-.game #false {
+.game #falsee {
   width: 50px;
   height: 50px;
   background-color: red;
